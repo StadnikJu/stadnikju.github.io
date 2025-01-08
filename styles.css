@@ -1,0 +1,264 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding: 0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+
+
+
+
+
+
+html, body{
+    background-color: #dbdbdb;
+}
+
+
+.wrap{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.conteiner{
+    margin: 0 auto;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.header__text{  
+    color: white;
+}
+
+
+.header__title{
+    margin-bottom: 20px;
+    
+}
+
+.title{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;  
+}
+
+.header__list{
+    list-style: none;
+    padding: 0;
+}
+
+.header__list li:before{
+    content: '';
+    display: inline-block;
+    height: 12px;
+    width:16px;
+    background: url("./lired.svg") left no-repeat;
+    padding: 0 30px 0 0;
+    
+}
+
+.header__list li{
+    padding: 10px 0 0 0;
+    font-size: 18px;
+}
+
+
+
+.header__img{
+    
+}
+
+.header__img img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.what{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    width: 1650px;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.what__img{
+    margin: 50px 30px 0 0;
+}
+
+.what__img img{
+    width: 500px;
+    height: 200px;
+    
+}
+
+.what__text{
+    text-align: center;
+    width: 600px;
+    margin: 50px 0 0 30px;
+}
+
+.text4{
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.what__title{
+
+
+}
+
+.what__description{
+    margin: 15px 0;
+}
+
+
+.footer{
+    background-color: #c3c0c0;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner1{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1180px;
+    align-items: center;
+}
+
+.colums{
+    
+}
+
+.colums__title{
+    margin: 20px auto;
+}
+
+.colums__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.colums__cell{
+    display: flex;
+    margin: 20px auto;
+    
+}
+
+.colums__text2{
+    width: 300px;
+}
+
+.colums__img{
+    
+}
+
+.colums__img img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.column__title{
+    font-size: 24px;
+    margin: 0 0 15px 15px;
+}
+
+.coluns__text{
+    width: 300px;
+    font-size: 18px;
+    margin: 15px 0 0 15px;
+    line-height: 25px;
+}
+
+.vertical{
+    
+}
+
+.vertical__title{
+    
+}
+
+.conteiner{
+    
+}
+
+.vertical__conteiner{
+    width: 300px;
+    margin: 0 30px;
+}
+
+.vertical__happy{
+    background-color: #13135a;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;   
+}
+
+.vertical__item{
+    padding: 20px;
+    color: #13135a;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.vertical__subscription{
+    height: 400px;
+    background-color: #13135a;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vertical__text3{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    line-height: 25px
+}
+
+.vertical__button{
+    margin: 20px;
+    border-radius: 5px 5px 5px 5px;
+    width: 250px;
+    height: 30px;
+    color: #13135a;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
